@@ -11,18 +11,22 @@ public class Book extends LibraryItem {
     }
 
     public String getAuthor() {
+
         return author;
     }
 
     public void setAuthor(String author) {
+
         this.author = author;
     }
 
     public int getPages() {
+
         return pages;
     }
 
     public void setPages(int pages) {
+
         this.pages = pages;
     }
 }
